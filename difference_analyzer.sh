@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
-#/cs/course/current/labcc2/presubmit/ex2/io/TestIO_18.stdout
+VERSION=1.0
+
 HUJI_DOMAIN=cs.huji.ac.il
 HUJI_SERVERS=('river' 'bava')
 
@@ -68,6 +69,7 @@ function program_information() {
 }
 
 function opening_screen() {
+  echo CLAB Difference Analyzer ${VERSION} by Yoav Strugo
   echo First, make sure you have compiled your program
   echo In addition, you must be connected to \'eduroam\' wifi
   echo "If you have errors (permission error/access error), you may need to\
