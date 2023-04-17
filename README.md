@@ -7,17 +7,25 @@
    * You can also run:
    * `$ wget https://github.com/yoavstrugo/CLABDifferenceAnalyzer/releases/latest/download/difference_analyzer.sh`
    * in your project's directory (inside your linux terminal).
+
 2) Enter the <b>linux machine</b> terminal (in CLion click the arrow above 
    the terminal, and select `Ubuntu...`).
+
 <img src="./res/editor.png">
+
 3) Find the output file specified in the submission pdf you received after 
    submitting the project.
+
 <img src="./res/stdout.png">
+
 4) Get you cse username and password
+
 5) Make sure to compile your project.
+
 6) On the linux terminal, run `$./difference_analyzer.sh` and follow the 
    on-screen instructions.
 <img src="./res/running.png">
+
 7) At the end, if you have any mistake, you will see your output on the left 
    and the correct output on the right.
 
