@@ -10,9 +10,6 @@ SSH_FLAGS="StrictHostKeyChecking=no"
 
 PROGRAM_PREFIX="difference_analyzer_temp_"
 
-CSE_USERNAME_VARNAME="CSE_USERNAME"
-CSE_PASSWORD_VARNAME="CSE_PASSWORD"
-
 function install_sshpass() {
   # installation of sshpass
   dpkg-query -l sshpass 1>/dev/null 2>/dev/null
@@ -246,4 +243,3 @@ echo
 echo Compare file is "$DIFF_FILE" for you to look at it again.
 exit_message
 exit 0
-

@@ -4,6 +4,9 @@
 
 ### How to use
 1) Download `difference_analyzer.sh` into your project's directory.
+   * You can also run:
+   * `$ wget https://github.com/yoavstrugo/CLABDifferenceAnalyzer/releases/latest/download/difference_analyzer.sh`
+   * in your project's directory (inside your linux terminal).
 2) Enter the <b>linux machine</b> terminal (in CLion click the arrow above 
    the terminal, and select `Ubuntu...`).
 <img src="./res/editor.png">
